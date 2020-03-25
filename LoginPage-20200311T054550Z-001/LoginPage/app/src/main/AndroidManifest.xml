@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mansi.loginpage">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".activity_3" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".time_table" />
+        <activity android:name=".data" />
+        <activity android:name=".activity_4" />
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".faculty_class" />
+        <activity android:name=".cr_class" />
+        <activity android:name=".help_class" />
+        <activity android:name=".about_class" />
+        <activity android:name=".se_tt" />
+        <activity android:name=".Admin_home" />
+        <activity android:name=".sample2" />
+        <activity android:name=".sample3" />
+        <activity android:name=".sample4" />
+        <activity android:name=".Master"></activity>
+    </application>
+
+</manifest>

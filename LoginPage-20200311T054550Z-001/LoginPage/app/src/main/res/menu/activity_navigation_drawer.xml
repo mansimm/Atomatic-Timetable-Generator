@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/adminlogin"
+            android:icon="@drawable/adminlogin"
+            android:title="Admin Login" />
+        <item
+            android:id="@+id/showtt"
+            android:icon="@drawable/tt"
+            android:title="Timetables" />
+        <item
+            android:id="@+id/faculty"
+            android:icon="@drawable/faculty"
+            android:title="Faculty Contact" />
+        <item
+            android:id="@+id/cr"
+            android:icon="@drawable/cr_contact"
+            android:title="CR Contact" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="Help" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+    </group>
+
+
+</menu>

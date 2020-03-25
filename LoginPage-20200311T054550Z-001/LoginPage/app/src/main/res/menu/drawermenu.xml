@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/faculty_cont" android:title="Faculty contact" android:icon="@drawable/faculty" />
+    <item android:id="@+id/cr_cont" android:title="CR contacts" android:icon="@drawable/cr"/>
+    <item android:id="@+id/help" android:title="Help" android:icon="@drawable/help"/>
+    <item android:id="@+id/about_us" android:title="About us" android:icon="@drawable/about"/>
+
+
+</menu>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LoginPage</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin_homepage">Admin_homepage</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="contact_02133_230414">CONTACT:02133-230414</string>
+    <string name="ghumare_sir">GHUMARE SIR</string>
+    <string name="patu_pawar_yahoo_co_in">patu_pawar@yahoo.co.in</string>
+    <string name="contact_02133_230430">CONTACT: 02133-230430</string>
+    <string name="deshmukh_mam">DESHMUKH MAM</string>
+    <string name="pereira_sir">PEREIRA SIR</string>
+    <string name="contact_02133_230415">CONTACT:02133-230415</string>
+    <string name="shashi_ghumbre_gmail_com">shashi.ghumbre@gmail.com</string>
+    <string name="danny_pereira_rediffmail_com">danny_pereira@rediffmail.com</string>
+
+
+</resources>

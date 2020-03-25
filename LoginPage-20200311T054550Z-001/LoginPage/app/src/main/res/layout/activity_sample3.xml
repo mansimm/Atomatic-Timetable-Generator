@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sample3">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/header1T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="         "
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/header2T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="            "
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/header3T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          "
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/header4T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TE TIMETABLE"
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/header5T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="        "
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/header6T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="         "
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/header7T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="        "
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/header8T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="        "
+                    android:textSize="30dp" />
+
+
+
+            </TableRow>
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <TextView
+                    android:id="@+id/sr.noT"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sr.No."
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/time_colT"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/monT"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tueT"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/wedT"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/thusT"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/friT"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Friday"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/satT"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    />
+            </TableRow>
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <TextView
+                    android:id="@+id/sr.no1T"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="  1."
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/time_col1T"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="10:15am to 11:15am"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/mon1T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tue1T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/wed1T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/thus1T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/fri1T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Friday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/sat1T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <TextView
+                    android:id="@+id/sr.no2T"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="  2."
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/time_col2T"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="11:15am to 12:15pm"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/mon2T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tue2T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/wed2T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/thus2T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday"
+                    android:textSize="20dp"
+                    />
+
+                <TextView
+                    android:id="@+id/fri2T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Friday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/sat2T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/sr.no3T"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="  3."
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/time_col3T"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="12:15pm to 1:15pm"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/mon3T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tue3T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/wed3T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/thus3T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/fri3T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Friday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/sat3T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/lunchbreak1T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  -   "
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/lunchbreak2T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1:15pm to 1:45pm      "
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/lunchbreak3T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      "
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/lunchbreak4T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lunch Break"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/lunchbreak5T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      "
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/lunchbreak6T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      "
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/lunchbreak7T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      "
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/lunchbreak8T"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      "
+                    android:textSize="20dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/sr.no4T"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="  4."
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/time_col4T"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="1:45pm to 2:45pm"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/mon4T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tue4T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/wed4T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/thus4T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/fri4T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Friday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/sat4T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/sr.no5T"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="  5."
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/time_col5T"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="2:45pm to 3:45pm"
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/mon5T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tue5T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/wed5T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/thus5T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/fri5T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Friday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/sat5T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/sr.no6T"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="  6."
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/time_col6T"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="3:45pm to 4:45pm"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/mon6T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tue6T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/wed6T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/thus6T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/fri6T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Friday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/sat6T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/sr.no7T"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="  7."
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/time_col7T"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="4:45pm to 5:45pm"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/mon7T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tue7T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/wed7T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/thus7T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/fri7T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Friday"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/sat7T"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>

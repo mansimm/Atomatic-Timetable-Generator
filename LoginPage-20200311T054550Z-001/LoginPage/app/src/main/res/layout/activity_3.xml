@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_3"
+    android:background="@drawable/b5">
+
+    <Button
+        android:id="@+id/view_tt"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round"
+        android:text="Show Timetable"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Id"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/which_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Year"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/which_year"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/teacher_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Teacher"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teacher_name"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Type (LECT/TUT/PRACT)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="221dp"
+        android:ems="10"
+        android:hint="Hours Per Week"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/classroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hours"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Classroom No"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/add1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/id1"
+        android:layout_below="@+id/classroom"
+        android:background="@drawable/button_round"
+        android:text="Add"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/id1"
+        android:layout_below="@+id/classroom"
+        android:background="@drawable/button_round"
+        android:text="View All"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/id1"
+        android:layout_alignTop="@+id/delete"
+        android:background="@drawable/button_round"
+        android:text="Update"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/id1"
+        android:layout_below="@+id/add1"
+        android:background="@drawable/button_round"
+        android:text="Delete"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/new_1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round"
+        android:text="Create Timetable"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/new_1"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/view_tt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round"
+        android:text="delete timetable"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "404770181924",
+    "firebase_url": "https://loginpage-c10d2.firebaseio.com",
+    "project_id": "loginpage-c10d2",
+    "storage_bucket": "loginpage-c10d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404770181924:android:a22aff1be57468b0",
+        "android_client_info": {
+          "package_name": "com.example.mansi.loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404770181924-d414g4bn2j2fjissf0s3f2tq92a5tfic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8OHE5tyj8mrXif-a8b9CYjICZSar989o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
