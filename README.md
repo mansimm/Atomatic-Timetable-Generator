@@ -6,16 +6,19 @@
  
  # Prerequisites
 
- To start you need following things to be installed on yor system :
- 
+ Following platforms were used to develop this application
+
  1. Android Studio
  2. DB Browser (for linux operating system)
+ 3. Sqlite Database
+ 4. Firebase Authantication
+
  
- along with that you should have knowladge of following :
+ Following languages were used :
  
  1. Android
  2. Java
  3. XML
  4. CSS
- 5. Sqlite Database
- 6. Firebase Authantication
+ 5. SQL
+ 
